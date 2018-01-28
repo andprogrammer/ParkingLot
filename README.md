@@ -6,7 +6,7 @@ Run the program:
 
 clear && mkdir build && cd build && cmake .. && make && ./parking_lot file_inputs.txt
 
-file_inputs.txt should be automatically copy to build directory because of additional instruction in CMakeLists.txt:
+file_inputs.txt should be automatically copied to build directory because of additional instruction in CMakeLists.txt:
 
 file(COPY data/file_inputs.txt DESTINATION .)
 
