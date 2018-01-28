@@ -6,7 +6,7 @@
  */
 #include "LibsAndClassDeclarations.h"
 
-#define UNABLE_TESTS 0
+#define ENABLE_TESTS 0
 
 using namespace std;
 
@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 {
     handleArgumentData(argc, argv);
 
-#if UNABLE_TESTS
+#if ENABLE_TESTS
     ParkingLotUnitTests::runUnitTests();
 #endif
 
